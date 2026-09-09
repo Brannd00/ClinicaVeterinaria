@@ -18,7 +18,7 @@ import java.util.List;
 public class VeterinariaVista {
 
     public void mostrarPropietariosConMascotas(List<Propietario> propietarios) {
-        System.out.println("--- Propietarios y sus mascotas ---");
+        System.out.println("Propietarios y sus mascotas");
         for (Propietario p : propietarios) {
             System.out.println(p.getNombre() + ":");
             for (Mascota m : p.getMascotas()) {
@@ -29,7 +29,7 @@ public class VeterinariaVista {
     }
 
     public void mostrarConsultas(List<Consulta> consultas) {
-        System.out.println("--- Consultas realizadas ---");
+        System.out.println("Consultas realizadas");
         for (Consulta c : consultas) {
             System.out.println("Consulta #" + c.getIdConsulta()
                     + " - Mascota: " + c.getMascota().getNombre()
@@ -39,7 +39,7 @@ public class VeterinariaVista {
     }
 
     public void mostrarMedicamentosRecetados(List<Consulta> consultas) {
-        System.out.println("--- Medicamentos recetados ---");
+        System.out.println("Medicamentos recetados ");
         for (Consulta c : consultas) {
             for (Medicamento m : c.getMedicamentos()) {
                 System.out.println(c.getMascota().getNombre() + " -> " + m.getNombre());

@@ -26,8 +26,8 @@ public class Propietario {
         this.telefono = telefono;
         this.mascotas = new ArrayList<>();
     }
-
-    // Getters y setters
+    
+    
     public String getNombre() {
         return nombre;
     }
