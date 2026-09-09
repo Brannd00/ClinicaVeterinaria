@@ -4,13 +4,14 @@
  */
 package com.mycompany.clinicaveterinaria.Modelo;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  *
  * @author brann
  */
+import java.util.ArrayList;
+import java.util.List;
+
 public class Consulta {
 
     private int idConsulta;
@@ -19,8 +20,7 @@ public class Consulta {
     private Mascota mascota;
     private Veterinario veterinario;
 
-    // Composición: la lista de medicamentos vive y muere con la Consulta
-    private final List<Medicamento> medicamentos;
+    private List<Medicamento> medicamentos;
 
     public Consulta(int idConsulta, String fecha, String motivo, Mascota mascota, Veterinario veterinario) {
         this.idConsulta = idConsulta;
@@ -28,10 +28,9 @@ public class Consulta {
         this.motivo = motivo;
         this.mascota = mascota;
         this.veterinario = veterinario;
-        this.medicamentos = new ArrayList<>(); // se crea internamente, no se recibe desde afuera
+        this.medicamentos = new ArrayList<>(); 
     }
 
-    // Getters y setters
     public int getIdConsulta() {
         return idConsulta;
     }
@@ -76,7 +75,6 @@ public class Consulta {
         return medicamentos;
     }
 
-    // Método clave de la composición: la Consulta es quien crea sus propios Medicamento
     public void agregarMedicamento(Medicamento medicamento) {
         this.medicamentos.add(medicamento);
     }
