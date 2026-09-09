@@ -22,7 +22,6 @@ public abstract class Animal {
         this.colorPelaje = colorPelaje;
     }
 
-    // Getters y setters
     public String getNombre() {
         return nombre;
     }
