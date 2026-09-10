@@ -58,11 +58,11 @@ public class ClinicaVeterinariaController {
         veterinarios.add(v2);
 
         Medicamento med1 = new Medicamento("Amoxicilinaa", "250mg cada 12h", "Antibiotico", 15000);
-        Medicamento med2 = new Medicamento("Meloxicam", "0.1mg/kg cada 24h", "Antiinflamatorio", 12000);
+        Medicamento med2 = new Medicamento("Meloxicam", "0.1mg/kg cada 24h", "Antinflamatorio", 12000);
         Medicamento med3 = new Medicamento("Ivermectina", "1 dosis única", "Antiparasitario", 8000);
 
         Consulta c1 = new Consulta(1, "2025-06-01", "Control general", m1, v1);
-        Consulta c2 = new Consulta(2, "2025-06-02", "Vacunación y desparasitacion", m3, v2);
+        Consulta c2 = new Consulta(2, "2025-06-02", "Vacunacion y desparasitacion", m3, v2);
         Consulta c3 = new Consulta(3, "2025-06-03", "Revision por vomito", m2, v1);
 
         v1.asociarConsulta(c1);
