@@ -52,7 +52,7 @@ public class ClinicaVeterinariaController {
         propietarios.add(p1);
         propietarios.add(p2);
 
-        Veterinario v1 = new Veterinario("Dra. Ana Rios", "LIC-001", "Medicina General");
+        Veterinario v1 = new Veterinario("Dra. Ana Perez", "LIC-001", "Medicina General");
         Veterinario v2 = new Veterinario("Dr. Luis Torres", "LIC-002", "Cirugia");
         veterinarios.add(v1);
         veterinarios.add(v2);
