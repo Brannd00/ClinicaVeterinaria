@@ -8,9 +8,11 @@ package com.mycompany.clinicaveterinaria;
  *
  * @author brann
  */
-public class ClinicaVeterinaria {
+import com.mycompany.clinicaveterinaria.Controlador.Controlador;
 
+public class ClinicaVeterinaria {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Controlador controller = new Controlador();
+        controller.iniciar();
     }
 }
