@@ -15,7 +15,7 @@ public class Consulta {
 
     private int idConsulta;
     private String fecha;
-    protected String motivo;
+    private String motivo;
     private Mascota mascota;
     private Veterinario veterinario;
 

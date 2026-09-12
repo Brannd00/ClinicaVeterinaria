@@ -11,8 +11,8 @@ package com.mycompany.clinicaveterinaria.Modelo;
 public abstract class Animal {
 
     private String nombre;
-    protected String especie;
-    int edad;
+    private String especie;
+    private int edad;
     public String colorPelaje;
 
     public Animal(String nombre, String especie, int edad, String colorPelaje) {

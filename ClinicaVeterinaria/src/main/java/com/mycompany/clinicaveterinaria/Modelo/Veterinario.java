@@ -15,7 +15,7 @@ public class Veterinario {
 
     private String nombre;
     private String licenciaProfesional;
-    protected String especialidad;
+    private String especialidad;
 
     private List<Consulta> consultas;
 

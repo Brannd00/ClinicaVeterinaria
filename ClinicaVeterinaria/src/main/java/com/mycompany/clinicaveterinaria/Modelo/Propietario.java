@@ -15,7 +15,7 @@ public class Propietario {
 
     private String nombre;
     private String documento;
-    protected String telefono;
+    private String telefono;
 
     private List<Mascota> mascotas;
 

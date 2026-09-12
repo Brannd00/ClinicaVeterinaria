@@ -12,7 +12,7 @@ public class Mascota extends Animal {
 
     private String raza;
     private String numeroChip;
-    protected Propietario propietario;
+    private Propietario propietario;
 
     public Mascota(String nombre, String especie, int edad, String colorPelaje,
                     String raza, String numeroChip, Propietario propietario) {

@@ -12,7 +12,7 @@ public class Medicamento {
 
     private String nombre;
     private String dosis;
-    protected String indicaciones;
+    private String indicaciones;
     private double precio;
 
     public Medicamento(String nombre, String dosis, String indicaciones, double precio) {
